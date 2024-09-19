@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['Email_Session'])) {
-    header("Location: welcome.php");
+    header("Location: Home.php");
     die();
 }
 include('config.php');
@@ -171,7 +171,7 @@ if (isset($_POST['submit'])) {
                         Sign in
                                                                                 </a>
                 </div>
-                <img src="images/logo.png" class="image" alt="" />
+                <img src="../images/logo.png" class="image" alt="" />
             </div>
         </div>
     </div>

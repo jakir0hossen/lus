@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['Email_Session'])) {
-  header("Location: welcome.php");
+  header("Location: Home.php");
   die();
 }
 
@@ -15,7 +15,7 @@ if (isset($_GET['Verification'])) {
     $query = mysqli_query($conx, "UPDATE register SET verification='1' WHERE CodeV='{$_GET['Verification']}'");
     if ($query) {
       $rowv = mysqli_fetch_assoc($raquet);
-      header("Location: welcome.php?id='{$rowv['id']}'");
+      header("Location: Home.php?id='{$rowv['id']}'");
     }else{
       header("Location: index.php");
     }
@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
     $row = mysqli_fetch_assoc($resulte);
     if ($row['verification'] === '1') {
       $_SESSION['Email_Session']=$email;
-      header("Location: welcome.php");
+      header("Location: Home.php");
     }else{$msg = "<div class='alert alert-info'>First Verify Your Account</div>";}
   }else{
     $msg = "<div class='alert alert-danger'>Email or Password is not match</div>";
@@ -136,7 +136,7 @@ if (isset($_POST['submit'])) {
             Sign up
           </a>
         </div>
-        <img src="images/logo.png" class="image" alt="" />
+        <img src="../images/logo.png" class="image" alt="" />
       </div>
     </div>
   </div>
