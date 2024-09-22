@@ -24,24 +24,21 @@ if (isset($_POST['submit'])) {
             $mail = new PHPMailer(true);
 
             try {
-                //Server settings
-                $mail->SMTPDebug = 0;                      //Enable verbose debug output
-                $mail->isSMTP();                                            //Send using SMTP
-                $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-                $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                $mail->Username   = 'speedxxxx7@gmail.com';                     //SMTP username
-                $mail->Password   = '';                               //SMTP password
-                $mail->SMTPSecure = 'Tls';            //Enable implicit TLS encryption
-                $mail->Port       = 25;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-                //Recipients
-                $mail->setFrom('speedxxxx7@gmail.com', 'Eagle');
+                $mail->SMTPDebug = 0;
+                $mail->isSMTP();
+                $mail->Host       = 'smtp.gmail.com';
+                $mail->SMTPAuth   = true;
+                $mail->Username   = 'jhbjakir@gmail.com';
+                $mail->Password   = 'keaxyfvlxszsypaj';
+                $mail->SMTPSecure = 'Tls';
+                $mail->Port       = 587;
+                $mail->setFrom('jhbjakir@gmail.com', 'Eagle');
                 $mail->addAddress($email);
                 //Content
                 $mail->isHTML(true);                                  //Set email format to HTML
                 $mail->Subject = 'Welecom To My Website';
-                $mail->Body    = '<p> This is the Verifecation Link<b><a href="http://localhost/coursephp/P1/Sliding/change-Password.php?Reset=' . $CodeReset . '">"http://localhost/coursephp/P1/Sliding/change-Password.php?Reset=' . $CodeReset . '"</a></b></p>';
-
+                $mail->Body    = '<p> This is the Verifecation Link<b><a href="http://localhost:3000/change-Password.php?Reset=' . $CodeReset . '">"http://localhost:3000/change-Password.php?Reset=' . $CodeReset . '"</a></b></p>';
+                //    '<p>This is the Verification Link: <b><a href="http://localhost:3000/?Verification='.$Code.'">Verify Here</a></b></p>';
                 $mail->send();
             } catch (Exception $e) {
                 echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

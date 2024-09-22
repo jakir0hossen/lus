@@ -16,7 +16,7 @@ if (isset($_GET['Reset'])) {
                 $sql = "UPDATE register SET Password ='" . md5($Pass) . "' WHERE CodeV='{$_GET['Reset']}'";
                 $result = mysqli_query($conx, $sql);
                 if ($result) {
-                    header("Location: welcome.php");
+                    header("Location: home.php");
                 }
             } else {
                 $msg = "<div class='alert alert-danger'>Password and Confirm Password is not match</div>";
