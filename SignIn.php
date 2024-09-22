@@ -17,10 +17,10 @@ if (isset($_GET['Verification'])) {
       $rowv = mysqli_fetch_assoc($raquet);
       header("Location: Home.php?id='{$rowv['id']}'");
     }else{
-      header("Location: index.php");
+      header("Location: SignIn.php");
     }
   } else {
-    header("Location: index.php");
+    header("Location: SignIn.php");
   }
 }
 if (isset($_POST['submit'])) {
@@ -75,7 +75,7 @@ if (isset($_POST['submit'])) {
     }
     .Forget-Pass{
       display: flex;
-      width: 25%;
+      width: 28%;
     }
     .Forget{
       color: green;
@@ -103,7 +103,7 @@ if (isset($_POST['submit'])) {
             <input type="password" name="Password" placeholder="Password" />
           </div>
           <div class="Forget-Pass">
-          <a href="Forget.php" class="Forget">Forget Password ?</a></div>
+          <a href="Forget.php" class="Forget">Forget Password?</a></div>
           <input type="submit" name="submit" value="Login" class="btn solid" />
           <p class="social-text">Or Sign in with social platforms</p>
           <div class="social-media">
@@ -127,10 +127,9 @@ if (isset($_POST['submit'])) {
     <div class="panels-container">
       <div class="panel left-panel">
         <div class="content">
-          <h3>New here ?</h3>
+          <h3>Join LU Magazine</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-            ex ratione. Aliquid!
+           Sign up today for access to campus news, events, and student stories
           </p>
           <a href="SignUp.php" class="btn transparent" id="sign-in-btn" style="padding:10px 20px;text-decoration:none">
             Sign up

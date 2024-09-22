@@ -125,7 +125,6 @@ if(isset($_POST['submit'])){
                         </ul>
                     </li>
                     <li><a href="./contact.php">Contact</a></li>
-                    <li><a href="./register.php">Sign Up</a></li>
                     <li><a href="./login.php"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
                 </ul>
                 

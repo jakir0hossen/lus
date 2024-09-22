@@ -5,70 +5,75 @@ if (isset($_SESSION['Email_Session'])) {
     die();
 }
 include('config.php');
-//Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader
 require 'vendor/autoload.php';
 $msg = "";
-$Error_Pass="";
+$Error_Pass = "";
+
 if (isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($conx, $_POST['Username']);
     $email = mysqli_real_escape_string($conx, $_POST['Email']);
-    $Password = mysqli_real_escape_string($conx, md5($_POST['Password']));
-    $Confirm_Password = mysqli_real_escape_string($conx, md5($_POST['Conf-Password']));
+    $Password = $_POST['Password'];
+    $Confirm_Password = $_POST['Conf-Password'];
     $Code = mysqli_real_escape_string($conx, md5(rand()));
-    if (mysqli_num_rows(mysqli_query($conx, "SELECT * FROM register where email='{$email}'")) > 0) {
-        $msg = "<div class='alert alert-danger'>This Email:'{$email}' has been alredy existe.</div>";
+
+    // Email validation regex for Gmail, Yahoo, and University
+    $emailPattern = '/^[a-zA-Z0-9._%+-]+@(gmail\.com|yahoo\.com|lus\.ac\.bd)$/';
+    if (!preg_match($emailPattern, $email)) {
+        $msg = "<div class='alert alert-danger'>Invalid email format. Please use a valid Gmail, Yahoo, or university email.</div>";
     } else {
-        if ($Password === $Confirm_Password) {
-            $query = "INSERT INTO register(`Username`, `email`, `Password`, `CodeV`) values('$name','$email','$Password','$Code')";
-            $result = mysqli_query($conx, $query);
-            if ($result) {
-                //Create an instance; passing `true` enables exceptions
-                $mail = new PHPMailer(true);
-
-                try {
-                    //Server settings
-                    $mail->SMTPDebug = 0;                      //Enable verbose debug output
-                    $mail->isSMTP();                                            //Send using SMTP
-                    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-                    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                    $mail->Username   = 'jhbjakir@gmail.com';                     //SMTP username
-                    $mail->Password   = 'keaxyfvlxszsypaj';                               //SMTP password
-                    $mail->SMTPSecure = 'Tls';            //Enable implicit TLS encryption
-                    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-                    //Recipients
-                    $mail->setFrom('jakir@gmail.com',$name);
-                    $mail->addAddress($email,$name);
-                    //Content
-                    $mail->isHTML(true);                                  //Set email format to HTML
-                    $mail->Subject = 'Welecom To My Website';
-                    
-                    $mail->Body    = '<p> This is the Verifecation Link<b><a href="http://localhost:3000/?Verification='.$Code.'">"http://localhost:3000/?Verification='.$Code.'"</a></b></p>';
-
-                    $mail->send();
-                    
-                } catch (Exception $e) {
-                    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-                }
-                $msg = "<div class='alert alert-info'>we've send a verification code on Your email Address</div>";
-            } else {
-                $msg = "<div class='alert alert-danger'>Something was Wrong</div>";
-                
-            }
+        // Password validation regex
+        $passwordPattern = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/';
+        if (!preg_match($passwordPattern, $Password)) {
+            $msg = "<div class='alert alert-danger'>Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.</div>";
+            $Error_Pass = 'style="border:1px Solid red;box-shadow:0px 1px 11px 0px red"';
         } else {
-            $msg = "<div class='alert alert-danger'>Password and Confirm Password is not match</div>";
-            $Error_Pass='style="border:1px Solid red;box-shadow:0px 1px 11px 0px red"';
+            $Password = mysqli_real_escape_string($conx, md5($Password));
+            $Confirm_Password = mysqli_real_escape_string($conx, md5($Confirm_Password));
+
+            if (mysqli_num_rows(mysqli_query($conx, "SELECT * FROM register WHERE email='{$email}'")) > 0) {
+                $msg = "<div class='alert alert-danger'>This Email: '{$email}' already exists.</div>";
+            } else {
+                if ($Password === $Confirm_Password) {
+                    $query = "INSERT INTO register(`Username`, `email`, `Password`, `CodeV`) VALUES ('$name','$email','$Password','$Code')";
+                    $result = mysqli_query($conx, $query);
+                    if ($result) {
+                        $mail = new PHPMailer(true);
+                        try {
+                            $mail->SMTPDebug = 0;
+                            $mail->isSMTP();
+                            $mail->Host = 'smtp.gmail.com';
+                            $mail->SMTPAuth = true;
+                            $mail->Username = 'jhbjakir@gmail.com'; 
+                            $mail->Password = 'keaxyfvlxszsypaj'; // Change to your email password
+                            $mail->SMTPSecure = 'tls';
+                            $mail->Port = 587;
+
+                            $mail->setFrom('jhbjakir@gmail.com', $name); // Change to your email
+                            $mail->addAddress($email, $name);
+                            $mail->isHTML(true);
+                            $mail->Subject = 'Welcome To My Website';
+                            $mail->Body = '<p>This is the Verification Link: <b><a href="http://localhost:3000/?Verification='.$Code.'">Verify Here</a></b></p>';
+                            $mail->send();
+                        } catch (Exception $e) {
+                            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+                        }
+                        $msg = "<div class='alert alert-info'>We've sent a verification code to your email address.</div>";
+                    } else {
+                        $msg = "<div class='alert alert-danger'>Something went wrong.</div>";
+                    }
+                } else {
+                    $msg = "<div class='alert alert-danger'>Password and Confirm Password do not match.</div>";
+                    $Error_Pass = 'style="border:1px Solid red;box-shadow:0px 1px 11px 0px red"';
+                }
+            }
         }
     }
 }
 ?>
-
 
 
 
@@ -162,12 +167,9 @@ if (isset($_POST['submit'])) {
             </div>
             <div class="panel right-panel">
                 <div class="content">
-                    <h3>One of us ?</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                        laboriosam ad deleniti.
-                    </p>
-                    <a href="index.php" class="btn transparent" id="sign-in-btn" style="padding:10px 20px;text-decoration:none">
+                    <h3>LU Magazine</h3>
+                    <p>Unlock personalized content, campus updates, and student-driven articles</p>
+                    <a href="SignIn.php" class="btn transparent" id="sign-in-btn" style="padding:10px 20px;text-decoration:none">
                         Sign in
                                                                                 </a>
                 </div>
