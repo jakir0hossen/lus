@@ -72,14 +72,14 @@
 
             <div class="featurde_book_img">
                 
-                <img src="images/book/book_6.jpg">
+                <img src="images/book/book_7.jpg">
             </div>
 
             <div class="featurde_book_tag">
-                <h4>Head First Java: A Brain-Friendly Guide</h4>
-                <p class="writer">Kathy Sierra</p>
+                <h4>PHP and MySQL WEB DEVELOPMENT (fifth edition)</h4>
+                <p class="writer">Robert Bros</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                <p class="book_price">$18.50<sub><del>$22.60</del></sub></p>
                 <a href="#" class="f_btn">Learn More</a>
             </div>                
 
@@ -123,14 +123,14 @@
 
             <div class="featurde_book_img">
                 
-                <img src="../images/book/book_6.jpg">
+                <img src="../images/book/book_4.jpg">
             </div>
 
             <div class="featurde_book_tag">
-                <h4>Head First Java: A Brain-Friendly Guide</h4>
-                <p class="writer">Kathy Sierra</p>
+                <h4>Modern and Digital Analogue Communication System</h4>
+                <p class="writer">Jos Browney</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                <p class="book_price">$22.50<sub><del>$28.60</del></sub></p>
                 <a href="#" class="f_btn">Learn More</a>
             </div>               
 
@@ -174,14 +174,14 @@
 
             <div class="featurde_book_img">
                 
-                <img src="../images/book/book_1.gif">
+                <img src="../images/book/book_8.jpg">
             </div>
 
             <div class="featurde_book_tag">
-                <h4>The C Plus Plus Programming Language</h4>
-                <p class="writer"> Bjarne Stroustrup</p>
-                <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                <h4>Math Book (Bangla)</h4>
+                <p class="writer">Jahid Sir</p>
+                <div class="categories">Mathematics</div>
+                <p class="book_price">$30.50<sub><del>$40.60</del></sub></p>
                 <a href="#" class="f_btn">Learn More</a>
             </div>             
 
@@ -191,14 +191,14 @@
 
             <div class="featurde_book_img">
                 
-                <img src="../images/book/book_1.gif">
+                <img src="../images/book/book_9.jpg">
             </div>
 
             <div class="featurde_book_tag">
-                <h4>The C Plus Plus Programming Language</h4>
-                <p class="writer"> Bjarne Stroustrup</p>
+                <h4>System Design Interview</h4>
+                <p class="writer">John Doe</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                <p class="book_price">$29.50<sub><del>$32.60</del></sub></p>
                 <a href="#" class="f_btn">Learn More</a>
             </div>             
 
@@ -208,14 +208,14 @@
 
             <div class="featurde_book_img">
                 
-                <img src="../images/book/book_1.gif">
+                <img src="../images/book/book_10.jpg">
             </div>
 
             <div class="featurde_book_tag">
-                <h4>The C Plus Plus Programming Language</h4>
-                <p class="writer"> Bjarne Stroustrup</p>
+                <h4>Machine Learning and System Design</h4>
+                <p class="writer">Roberto Carlos</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                <p class="book_price">$32.50<sub><del>$35.60</del></sub></p>
                 <a href="#" class="f_btn">Learn More</a>
             </div>              
 
@@ -227,6 +227,8 @@
         </div>
 
     </div>
+
+
     <!--Arrivals-->
     <div class="arrivals">
         <h1>New Arrivals</h1>
@@ -235,7 +237,7 @@
 
             <div class="arrivals_card">
                 <div class="arrivals_image">
-                    <img src="../images/book/new1.jpeg">
+                    <img src="../images/book/new1.jpg">
                 </div>
                 <div class="arrivals_tag">
                     <p>New Arrivals</p>
@@ -386,7 +388,7 @@
                 </div>
             </div>
 
-            <div class="arrivals_card">
+            <!--<div class="arrivals_card">
                 <div class="arrivals_image">
                     <img src="../images/book/new10.jpg">
                 </div>
@@ -401,7 +403,7 @@
                     </div>
                     <a href="#" class="arrivals_btn">Learn More</a>
                 </div>
-            </div>
+            </div>-->
 
         </div>
 
@@ -518,7 +520,7 @@
         </div>
 
         <div class="footerBottom">
-            <p>Copyright &copy;2024; Design by <span class="designer">LuMagazine</span></p>
+            <p>Copyright &copy;2024; Design by <span class="designer">LU Magazine</span></p>
         </div>
     </footer>
  

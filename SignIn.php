@@ -39,6 +39,8 @@ if (isset($_POST['submit'])) {
   }
 }
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,43 +50,7 @@ if (isset($_POST['submit'])) {
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
   <title>Sign in & Sign up Form</title>
-  <style>
-    .alert {
-      padding: 1rem;
-      border-radius: 5px;
-      color: white;
-      margin: 1rem 0;
-      font-weight: 500;
-      width: 65%;
-    }
-
-    .alert-success {
-      background-color: #42ba96;
-    }
-
-    .alert-danger {
-      background-color: #fc5555;
-    }
-
-    .alert-info {
-      background-color: #2E9AFE;
-    }
-
-    .alert-warning {
-      background-color: #ff9966;
-    }
-    .Forget-Pass{
-      display: flex;
-      width: 28%;
-    }
-    .Forget{
-      color: green;
-      font-weight: 500;
-      text-decoration: none;
-      margin-left: auto;
-      
-    }
-  </style>
+  
 </head>
 
 <body>

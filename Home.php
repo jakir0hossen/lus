@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>LU Magazine</title>
     <script src="https://kit.fontawesome.com/eaa4609b2f.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/79d1bfb033.js" crossorigin="anonymous"></script>
+   
     <link rel="stylesheet" href="./home.css" />
 </head>
 
@@ -66,7 +66,7 @@
                 <p>
                     The university's annual science fair, a showcase of student research and innovation, captivated attendees with projects ranging from sustainable energy solutions to cutting-edge medical advancements. The event highlighted the university's commitment to fostering creativity and academic excellence.
                 </p>
-                <a href="./html/article.html">Read More</a>
+                <a href="#">Read More</a>
             </div>
         </div>
     </header>

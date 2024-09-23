@@ -47,16 +47,16 @@ if (isset($_POST['submit'])) {
                             $mail->isSMTP();
                             $mail->Host = 'smtp.gmail.com';
                             $mail->SMTPAuth = true;
-                            $mail->Username = 'jhbjakir@gmail.com'; 
-                            $mail->Password = 'keaxyfvlxszsypaj'; // Change to your email password
+                            $mail->Username = 'jhbjakir@gmail.com'; // Your Gmail
+                            $mail->Password = 'keaxyfvlxszsypaj'; // Your App Password
                             $mail->SMTPSecure = 'tls';
                             $mail->Port = 587;
 
-                            $mail->setFrom('jhbjakir@gmail.com', $name); // Change to your email
-                            $mail->addAddress($email, $name);
+                            $mail->setFrom('jhbjakir@gmail.com', $name); // Sender
+                            $mail->addAddress($email, $name); // Recipient
                             $mail->isHTML(true);
-                            $mail->Subject = 'Welcome To My Website';
-                            $mail->Body = '<p>This is the Verification Link: <b><a href="http://localhost:3000/?Verification='.$Code.'">Verify Here</a></b></p>';
+                            $mail->Subject = 'Welcome to My Website';
+                            $mail->Body = '<p>This is the Verification Link: <b><a href="http://localhost:3000/SignIn.php?Verification='.$Code.'">http://localhost:3000/SignIn.php?Verification='.$Code.'</a></b></p>';
                             $mail->send();
                         } catch (Exception $e) {
                             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
@@ -78,7 +78,6 @@ if (isset($_POST['submit'])) {
 
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,33 +86,8 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Sign in & Sign up Form</title>
-    <style>
-        .alert {
-            padding: 1rem;
-            border-radius: 5px;
-            color: white;
-            margin: 1rem 0;
-            font-weight: 500;
-            width: 65%;
-        }
-
-        .alert-success {
-            background-color: #42ba96;
-        }
-
-        .alert-danger {
-            background-color: #fc5555;
-        }
-
-        .alert-info {
-            background-color: #2E9AFE;
-        }
-
-        .alert-warning {
-            background-color: #ff9966;
-        }
-    </style>
+    <title>Sign up</title>
+   
 </head>
 
 <body>
