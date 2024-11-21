@@ -20,12 +20,11 @@ if (isset($_POST['submit'])) {
     $Confirm_Password = $_POST['Conf-Password'];
     $Code = mysqli_real_escape_string($conx, md5(rand()));
 
-    // Email validation regex for Gmail, Yahoo, and University
     $emailPattern = '/^[a-zA-Z0-9._%+-]+@(gmail\.com|yahoo\.com|lus\.ac\.bd)$/';
     if (!preg_match($emailPattern, $email)) {
         $msg = "<div class='alert alert-danger'>Invalid email format. Please use a valid Gmail, Yahoo, or university email.</div>";
     } else {
-        // Password validation regex
+ 
         $passwordPattern = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/';
         if (!preg_match($passwordPattern, $Password)) {
             $msg = "<div class='alert alert-danger'>Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.</div>";
@@ -47,13 +46,13 @@ if (isset($_POST['submit'])) {
                             $mail->isSMTP();
                             $mail->Host = 'smtp.gmail.com';
                             $mail->SMTPAuth = true;
-                            $mail->Username = 'jhbjakir@gmail.com'; // Your Gmail
-                            $mail->Password = 'keaxyfvlxszsypaj'; // Your App Password
+                            $mail->Username = 'jhbjakir@gmail.com';
+                            $mail->Password = 'keaxyfvlxszsypaj';
                             $mail->SMTPSecure = 'tls';
                             $mail->Port = 587;
 
-                            $mail->setFrom('jhbjakir@gmail.com', $name); // Sender
-                            $mail->addAddress($email, $name); // Recipient
+                            $mail->setFrom('jhbjakir@gmail.com', $name);
+                            $mail->addAddress($email, $name);
                             $mail->isHTML(true);
                             $mail->Subject = 'Welcome to My Website';
                             $mail->Body = '<p>This is the Verification Link: <b><a href="http://localhost:3000/SignIn.php?Verification='.$Code.'">http://localhost:3000/SignIn.php?Verification='.$Code.'</a></b></p>';
@@ -144,8 +143,7 @@ if (isset($_POST['submit'])) {
                     <h3>LU Magazine</h3>
                     <p>Unlock personalized content, campus updates, and student-driven articles</p>
                     <a href="SignIn.php" class="btn transparent" id="sign-in-btn" style="padding:10px 20px;text-decoration:none">
-                        Sign in
-                                                                                </a>
+                        Sign in</a>
                 </div>
                 <img src="../images/logo.png" class="image" alt="" />
             </div>
