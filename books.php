@@ -19,7 +19,7 @@
 
             <div class="navbar">
                 <ul>
-                    <li><a href="./Home.php">Home</a></li>
+                    <li><a href="./Home.php">Homej</a></li>
                     <li><a href="./about.php">About</a></li>
                     <li><a href="#">LU</a>
                      <ul>
