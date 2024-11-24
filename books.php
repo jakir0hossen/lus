@@ -19,11 +19,11 @@
 
             <div class="navbar">
                 <ul>
-                    <li><a href="./Home.php">Homejk</a></li>
+                    <li><a href="./Home.php">Home</a></li>
                     <li><a href="./about.php">About</a></li>
                     <li><a href="#">LU</a>
                      <ul>
-                        <li><a href="./blog.php">Blogs</a></li>
+                        <li><a href="./blogs.php">Blogs</a></li>
                         <li><a href="./books.php">Book</a></li>
                         <li><a href="./event.php">Event</a></li>
                         <li><a href="#">Lu Club</a>
