@@ -28,7 +28,7 @@
                         <li><a href="./event.php">Event</a></li>
                         <li><a href="#">Lu Club</a>
                             <ul>
-                                <li><a href="#">LUCC</a></li>
+                                <li><a href="./lucc.php">LUCC</a></li>
                                 <li><a href="#">LUSSC</a></li>
                                 <li><a href="#">LUEC</a></li>
                                 <li><a href="#">LUCC</a></li>
