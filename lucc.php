@@ -63,48 +63,41 @@
     
   <div class="card">
     <div class="card-header">
-      <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" />
+      <img src="https://lucc.club/wp-content/uploads/2024/03/jahid-1-scaled-1.jpg" alt="rover" />
     </div>
     <div class="card-body">
-      <span class="tag tag-teal">Technology</span>
-      <h4>
-        Why is the Tesla Cybertruck designed the way it
-        is?
+      
+      <h4 style="text-align: center;">
+        Advisor
       </h4>
+      <h3>KAZI MD. JAHID HASAN</h3>
       <p>
-        An exploration into the truck's polarising design
-      </p>
-      <div class="user">
-        <img src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo" alt="user" />
-        <div class="user-info">
-          <h5>July Dec</h5>
-          <small>3h ago</small>
-        </div>
-      </div>
+      Assistant Professor <br>
+      Computer Science & Engineering <br>
+      Leading University Computer Club (LUCC)
+      </p> 
+      
     </div>
   </div>
   <div class="card">
     <div class="card-header">
-      <img src="https://www.newsbtc.com/wp-content/uploads/2020/06/mesut-kaya-LcCdl__-kO0-unsplash-scaled.jpg" alt="ballons" />
+      <img src="https://lucc.club/wp-content/uploads/2024/03/412920900_24535322799416468_2587403542875872351_n.jpg" alt="rover" />
     </div>
     <div class="card-body">
-      <span class="tag tag-purple">Popular</span>
-      <h4>
-        How to Keep Going When You Don’t Know What’s Next
+      
+      <h4 style="text-align: center;">
+        Advisor
       </h4>
+      <h3>Md. Ebrahim Hossain</h3>
       <p>
-        The future can be scary, but there are ways to
-        deal with that fear.
-      </p>
-      <div class="user">
-        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8sn9zF15pW59JIYiLgx3PQ3EyZLFp5Zqao906l=s32-c-mo" alt="user" />
-        <div class="user-info">
-          <h5>Eyup Ucmaz</h5>
-          <small>Yesterday</small>
-        </div>
-      </div>
+      Assistant Professor <br>
+      Computer Science & Engineering <br>
+      Leading University Computer Club (LUCC)
+      </p> 
+      
     </div>
   </div>
+  
   <div class="card">
     <div class="card-header">
       <img src="https://images6.alphacoders.com/312/thumb-1920-312773.jpg" alt="city" />
