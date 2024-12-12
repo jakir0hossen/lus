@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>LU Magazine</title>
     <script src="https://kit.fontawesome.com/eaa4609b2f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/79d1bfb033.js" crossorigin="anonymous"></script>
    
     <link rel="stylesheet" href="./home.css" />
 </head>
