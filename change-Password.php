@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['Email_Session'])) {
-    header("Location: welcome.php");
+    header("Location: Home.php");
     die();
 }
 include('config.php');
@@ -39,32 +39,6 @@ if (isset($_GET['Reset'])) {
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Sign in & Sign up Form</title>
-    <style>
-        .alert {
-            padding: 1rem;
-            border-radius: 5px;
-            color: white;
-            margin: 1rem 0;
-            font-weight: 500;
-            width: 65%;
-        }
-
-        .alert-success {
-            background-color: #42ba96;
-        }
-
-        .alert-danger {
-            background-color: #fc5555;
-        }
-
-        .alert-info {
-            background-color: #2E9AFE;
-        }
-
-        .alert-warning {
-            background-color: #ff9966;
-        }
-    </style>
 </head>
 
 <body>

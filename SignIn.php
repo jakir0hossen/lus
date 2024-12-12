@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
   <title>Sign in & Sign up Form</title>
-  <style>
+  <!-- <style>
     .alert {
       padding: 1rem;
       border-radius: 5px;
@@ -73,18 +73,9 @@ if (isset($_POST['submit'])) {
     .alert-warning {
       background-color: #ff9966;
     }
-    .Forget-Pass{
-      display: flex;
-      width: 28%;
+   
     }
-    .Forget{
-      color: green;
-      font-weight: 500;
-      text-decoration: none;
-      margin-left: auto;
-      
-    }
-  </style>
+  </style> -->
 </head>
 
 <body>
