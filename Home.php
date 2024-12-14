@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>LU Magazine</title>
-    <script src="https://kit.fontawesome.com/eaa4609b2f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eaa4609b2f.js" crossorigin="anonymous">
+        
+    </script><script src="https://kit.fontawesome.com/eaa4609b2f.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/79d1bfb033.js" crossorigin="anonymous"></script>
    
     <link rel="stylesheet" href="./home.css" />
@@ -29,7 +31,7 @@
                         <li><a href="./event.php">Event</a></li>
                         <li><a href="#">Lu Club</a>
                             <ul>
-                                <li><a href="#">LUCC</a></li>
+                                <li><a href="./lucc.php">LUCC</a></li>
                                 <li><a href="#">LUSSC</a></li>
                                 <li><a href="#">LUEC</a></li>
                                 <li><a href="#">LUCC</a></li>

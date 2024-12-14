@@ -28,7 +28,7 @@
                         <li><a href="./event.php">Event</a></li>
                         <li><a href="#">Lu Club</a>
                             <ul>
-                                <li><a href="#">LUCC</a></li>
+                                <li><a href="./lucc.php">LUCC</a></li>
                                 <li><a href="#">LUSSC</a></li>
                                 <li><a href="#">LUEC</a></li>
                                 <li><a href="#">LUCC</a></li>
@@ -50,7 +50,7 @@
                         </ul>
                     </li>
                     <li><a href="./contact.php">Contact</a></li>
-                    <li><a href="./register.php">Sign Up</a></li>
+                
                     <li><a href="./logout.php"> <i class="fa-solid fa-right-to-bracket"></i>logout</a></li>
                 </ul>
                 

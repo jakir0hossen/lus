@@ -39,6 +39,8 @@ if (isset($_POST['submit'])) {
   }
 }
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,6 +50,7 @@ if (isset($_POST['submit'])) {
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
   <title>Sign in & Sign up Form</title>
+<<<<<<< HEAD
   <!-- <style>
     .alert {
       padding: 1rem;
@@ -76,6 +79,9 @@ if (isset($_POST['submit'])) {
    
     }
   </style> -->
+=======
+  
+>>>>>>> befec3c5462098de33788f0935eafe774b753108
 </head>
 
 <body>

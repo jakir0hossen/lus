@@ -20,12 +20,11 @@ if (isset($_POST['submit'])) {
     $Confirm_Password = $_POST['Conf-Password'];
     $Code = mysqli_real_escape_string($conx, md5(rand()));
 
-    // Email validation regex for Gmail, Yahoo, and University
     $emailPattern = '/^[a-zA-Z0-9._%+-]+@(gmail\.com|yahoo\.com|lus\.ac\.bd)$/';
     if (!preg_match($emailPattern, $email)) {
         $msg = "<div class='alert alert-danger'>Invalid email format. Please use a valid Gmail, Yahoo, or university email.</div>";
     } else {
-        // Password validation regex
+ 
         $passwordPattern = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/';
         if (!preg_match($passwordPattern, $Password)) {
             $msg = "<div class='alert alert-danger'>Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.</div>";
@@ -55,8 +54,13 @@ if (isset($_POST['submit'])) {
                             $mail->setFrom('jhbjakir@gmail.com', $name);
                             $mail->addAddress($email, $name);
                             $mail->isHTML(true);
+<<<<<<< HEAD
                             $mail->Subject = 'Wellcome To My Website';
                             $mail->Body    = '<p> This is the Verifecation Link<b><a href="http://localhost:3000/?Verification='.$Code.'">"http://localhost:3000/?Verification='.$Code.'"</a></b></p>';
+=======
+                            $mail->Subject = 'Welcome to My Website';
+                            $mail->Body = '<p>This is the Verification Link: <b><a href="http://localhost:3000/SignIn.php?Verification='.$Code.'">http://localhost:3000/SignIn.php?Verification='.$Code.'</a></b></p>';
+>>>>>>> befec3c5462098de33788f0935eafe774b753108
                             $mail->send();
                         } catch (Exception $e) {
                             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
@@ -74,7 +78,6 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
-
 
 
 
@@ -145,8 +148,7 @@ if (isset($_POST['submit'])) {
                     <h3>LU Magazine</h3>
                     <p>Unlock personalized content, campus updates, and student-driven articles</p>
                     <a href="SignIn.php" class="btn transparent" id="sign-in-btn" style="padding:10px 20px;text-decoration:none">
-                        Sign in
-                                                                                </a>
+                        Sign in</a>
                 </div>
                 <img src="../images/logo.png" class="image" alt="" />
             </div>
