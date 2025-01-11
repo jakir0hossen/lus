@@ -69,7 +69,7 @@
            <div class="card">
              <div class="content">
                <div class="img">
-                 <img src="./Ieee/JAC102.webp" alt="">
+                 <img src="./Ieee/tec-1.jpg" alt="">
                </div>
                <div class="details">
                  <div class="name">Md. Jehadul Islam Mony
@@ -82,10 +82,10 @@
                  </div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -95,7 +95,7 @@
            <div class="card">
              <div class="content">
                <div class="img">
-                 <img src="./Ieee/JAC101.webp" alt="">
+                 <img src="./Ieee/tec-2.jpg" alt="">
                </div>
                <div class="details">
                  <div class="name">Md. Jalal Uddin Chowdhury
@@ -109,10 +109,10 @@
 </div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -122,7 +122,7 @@
            <div class="card">
              <div class="content">
                <div class="img">
-                 <img src="./Ieee/JAC103.webp" alt="">
+                 <img src="./Ieee/tec-3.jpg" alt="">
                </div>
                <div class="details">
                  <div class="name">Md. Mahdi Hossain Hira
@@ -134,10 +134,10 @@
                  Leading University Computer Club (LUCC)</div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -159,9 +159,8 @@
             <img src="./Ieee/ieee.jpg" alt="">
           </div>
           <div class="caption">
-            <h3> 𝐓𝐢𝐦𝐞 𝐢𝐬 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐨𝐮𝐭! 🚨
-            𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫 𝐍𝐨𝐰!</h3>
-            <p>Join us on the 𝐈𝐄𝐄𝐄 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐒𝐨𝐜𝐢𝐞𝐭𝐲 𝐋𝐔 𝐒𝐁 𝐂𝐡𝐚𝐩𝐭𝐞𝐫 Presents, 𝐌𝐞𝐦𝐛𝐞𝐫𝐬𝐡𝐢𝐩 𝐂𝐚𝐦𝐩𝐚𝐢𝐠𝐧 event "𝐇𝐨𝐠𝐰𝐚𝐫𝐭𝐬 𝐨𝐟 𝐈𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐨𝐧!" Experience a magical journey of innovation, technology, and growth.
+            <h3>IEEE Computer Society LU SB Chapter</h3>
+            <p>
             </p>
           </div>
         </div>
@@ -188,9 +187,9 @@
               <img src="./Ieee/ieee.j-3pg.jpg" alt="">
             </div>
             <div class="caption">
-              <h3>🌟 𝐃𝐨𝐛𝐛𝐲 𝐢𝐬 𝐋𝐨𝐬𝐭! 𝐁𝐮𝐭 𝐰𝐡𝐞𝐫𝐞 𝐰𝐢𝐥𝐥 𝐭𝐡𝐞 𝐩𝐨𝐫𝐭𝐚𝐥 𝐭𝐚𝐤𝐞 𝐡𝐢𝐦? 🌟</h3>
-              <p>Will it be a realm brimming with magic or one where the term doesn’t even exist?
-              🪄 If you’re under the spell of curiosity, then prepare yourself for an enchanting journey
+              <h3>IEEE Computer Society LU SB Chapter</h3>
+              <p>
+            
               </p>
             </div>
           </div>

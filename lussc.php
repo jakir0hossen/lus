@@ -69,7 +69,7 @@
            <div class="card">
              <div class="content">
                <div class="img">
-                 <img src="./lussc/tec-1.webp" alt="">
+                 <img src="./lussc/tec-1.jpg" alt="">
                </div>
                <div class="details">
                  <div class="name">Rumpa Sharmin
@@ -82,10 +82,10 @@
                  Leading University Social Service Club</div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -95,7 +95,7 @@
            <div class="card">
              <div class="content">
                <div class="img">
-                 <img src="./lussc/tec-2.webp" alt="">
+                 <img src="./lussc/tec-2.jpg" alt="">
                </div>
                <div class="details">
                  <div class="name">Amit Chakraborty
@@ -111,10 +111,10 @@
 </div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>

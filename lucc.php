@@ -79,10 +79,10 @@
                  Leading University Computer Club (LUCC)</div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -104,10 +104,10 @@ Leading University Computer Club (LUCC) <br>
 </div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -127,10 +127,10 @@ Leading University Computer Club (LUCC) <br>
                  Leading University Computer Club (LUCC)</div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -151,10 +151,10 @@ Leading University Computer Club (LUCC) <br>
                  Leading University Computer Club (LUCC)</div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -199,7 +199,7 @@ Leading University Computer Club (LUCC) <br>
           </div>
           <div class="gallery">
             <div class="image-section">
-              <img src="./Lucc/event/TECH STORM-3.jpg" alt="">
+              <img src="./Lucc/event/TECH-STORM-3.jpg" alt="">
             </div>
             <div class="caption">
               <h3>আপনাদের সার্বিক সহযোগিতায় ১ দিনে অর্ধলক্ষের উপরে টাকা উত্তোলন করা সম্ভব হয়েছে। আমরা অতিদ্রুত বন্যায় আক্রান্ত মানুষদের কাছে পৌঁছাতে চাই। তাই দ্রুত প্রয়োজন আপনাদের সার্বিক সহযোগিতা।</h3>
@@ -209,10 +209,10 @@ Leading University Computer Club (LUCC) <br>
           </div>
           <div class="gallery">
             <div class="image-section">
-              <img src="./Lucc/event/TECH STORM-4.jpg" alt="">
+              <img src="./Lucc/event/TECH-STORM-4.jpg" alt="">
             </div>
             <div class="caption">
-              <h3>Heartfelt congratulations to Rumel M S Pir Sir on your prestigious appointment as the new Dean (in-charge) of the Modern Science Faculty</h3>
+              <h3>Congratulations to our esteemed Advisor, Kazi Jahid Hasan Sir, on being appointed as the Head of the Department of Computer Science and Engineering, Leading University.</h3>
               <p>As the Associate Professor and Head of the CSE Department, your unwavering dedication, visionary leadership, and exceptional contributions have been a beacon of inspiration to students and colleagues alike.</p>
             </div>
           </div>
