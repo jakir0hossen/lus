@@ -29,17 +29,16 @@
                         <li><a href="./blog.php">Blogs</a></li>
                         <li><a href="./books.php">Book</a></li>
                         <li><a href="./event.php">Event</a></li>
-                        <li><a href="#">Lu Club</a>
+                        <li><a href="./#">Lu Club</a>
                             <ul>
                                 <li><a href="./lucc.php">LUCC</a></li>
-                                <li><a href="#">LUSSC</a></li>
-                                <li><a href="#">LUEC</a></li>
-                                <li><a href="#">LUCC</a></li>
-                                <li><a href="#">LUDC</a></li>
-                                <li><a href="#">LUMUNA</a></li>
-                                <li><a href="#">LU BNCC</a></li>
-                                <li><a href="#">LUPS</a></li>
-                                <li><a href="#">LUPS</a></li>
+                                <li><a href="./lussc.php">LUSSC</a></li>
+                                <li><a href="./luec.php">LUEC</a></li>
+                                <li><a href="./ieee.php">IEEE</a></li>
+                                <li><a href="./ludc.php">LUDC</a></li>
+                                <li><a href="./lumuna.php">LUMUNA</a></li>
+                                <li><a href="./bncc.php">LU BNCC</a></li>
+                                <li><a href="./lutc.php">LUTC</a></li>
                             </ul>
                         </li>
                      </ul>
@@ -93,12 +92,12 @@
                 </a>
 
                 <a href="./html/article.html" class="card">
-                <img src="../images/articles/dr.jpeg" alt="" />
+                <img src="../images/articles/dr.jpg" alt="" />
                     <article>
                         <p class="sports-category">Blog</p>
                         <h1>Danobir Dr.Syed Ragib Ali</h1>
                         <p>
-                        "I'm delighted to celebrate the incredible achievements of our University Computer Club. Your dedication to innovation, collaboration, and learning is truly commendable. Keep pushing boundaries and shaping the future of technology!"
+                        I’m thrilled to celebrate the incredible achievements of our University Computer Club. Your dedication to innovation, collaboration, and learning is truly inspiring. Through hackathons, workshops, and groundbreaking projects, you’ve fostered an environment that encourages creativity and problem-solving. Each of you, regardless of background, contributes to shaping the future of technology in meaningful ways. Your collective efforts highlight the power of teamwork and determination. Keep pushing boundaries, exploring new ideas, and making a lasting impact. The future of technology is bright, thanks to your hard work and passion!
                         </p>
                     </article>
                 </a>
@@ -116,31 +115,32 @@
                 </a>
 
                 <a href="./html/article.html" class="card">
+                <img src="../images/articles/SP1.jpg" alt="" />
                     <article>
                         <p class="sports-category">Sports</p>
                         <h1>Leading University Sports Club</h1>
                         <p>
-                        A Sport Club is defined as a registered student organization that exists to promote and develop interest in a particular sport or physical activity.
+                        A Sport Club is a registered student organization dedicated to promoting and developing interest in a specific sport or physical activity. It offers students the opportunity to engage in recreational or competitive play while fostering teamwork, discipline, and leadership. Through practices, events, and competitions, Sport Clubs provide a platform for students to enhance their skills, stay active, and connect with others who share similar interests. These clubs encourage a balanced, healthy lifestyle and contribute to building a vibrant campus community focused on physical wellness and athletic growth.
 
                         </p>
                     </article>
-                    <img src="../images/articles/SP1.jpg" alt="" />
+                   
                 </a>
 
                 <a href="./html/article.html" class="card">
-                    <img src="../images/articles/tech2.jpg" alt="" />
+                    <img src="../images/articles/event.jpg" alt="" />
                     <article>
                         <p class="technology-category">Event</p>
                         <h1>Upcoming Events</h1>
                         <p>
-                        Department Picnic (2025) Organized by LUCC
+                        The university event was a fantastic gathering that brought students, faculty, and staff together to celebrate academic and extracurricular achievements. From engaging workshops to live performances, attendees had the chance to participate in a variety of activities that showcased the diverse talents within the campus community. The event fostered connections, encouraged collaboration, and promoted school spirit. It highlighted the importance of both intellectual and personal growth, creating an atmosphere of excitement and unity that left everyone feeling motivated and proud to be part of the university.
 
                         </p>
                     </article>
                 </a>
 
                 <a href="./html/article.html" class="card">
-                <img src="../images/articles/tech2.jpg" alt="" />
+                <img src="../images/articles/club.jpg" alt="" />
                     <article>
                         <p class="sports-category">Lu Club</p>
                         <h1>Unlock Your Potential, Join the Club.</h1>
@@ -165,16 +165,7 @@
                     </article>
                 </a>
 
-                <a href="./html/article.html" class="card">
-                    <article>
-                        <p class="entertainment-category">Photo</p>
-                        <h1>HELLO WORLD TO REAL WORLD</h1>
-                        <p>
-                        Department Picnic (2022) Organized by LUCC
-                        </p>
-                    </article>
-                    <img src="../images/articles/ph1.jpg" alt="" />
-                </a>
+             
             </div>
         </div>
     </section>

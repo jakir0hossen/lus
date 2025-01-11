@@ -28,17 +28,16 @@
                         <li><a href="./blog.php">Blogs</a></li>
                         <li><a href="./books.php">Book</a></li>
                         <li><a href="./event.php">Event</a></li>
-                        <li><a href="#">Lu Club</a>
+                        <li><a href="./#">Lu Club</a>
                             <ul>
-                                <li><a href="#">LUCC</a></li>
-                                <li><a href="#">LUSSC</a></li>
-                                <li><a href="#">LUEC</a></li>
-                                <li><a href="#">LUCC</a></li>
-                                <li><a href="#">LUDC</a></li>
-                                <li><a href="#">LUMUNA</a></li>
-                                <li><a href="#">LU BNCC</a></li>
-                                <li><a href="#">LUPS</a></li>
-                                <li><a href="#">LUPS</a></li>
+                                <li><a href="./lucc.php">LUCC</a></li>
+                                <li><a href="./lussc.php">LUSSC</a></li>
+                                <li><a href="./luec.php">LUEC</a></li>
+                                <li><a href="./ieee.php">IEEE</a></li>
+                                <li><a href="./ludc.php">LUDC</a></li>
+                                <li><a href="./lumuna.php">LUMUNA</a></li>
+                                <li><a href="./bncc.php">LU BNCC</a></li>
+                                <li><a href="./lutc.php">LUTC</a></li>
                             </ul>
                         </li>
                      </ul>

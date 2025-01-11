@@ -162,9 +162,9 @@ nav .container {
 
 .featured_boks .featured_book_box .featured_book_card {
   text-align: center;
-  padding: 5px;
+  padding: 25px;
   border: 1px solid #ddd; /* Softer border */
-  margin: 0 5px;
+  margin:  5px;
   background: white;
 }
 
@@ -187,12 +187,14 @@ nav .container {
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .categories {
   color: green;
   margin-top: 8px;
+  margin-bottom: 15px;
 }
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price {
   margin-top: 8px;
   font-weight: bold;
   margin-bottom: 15px;
+  margin-top: 8px;
 }
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price sub {
@@ -201,6 +203,7 @@ nav .container {
 }
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn {
+  margin-top: 20px;
   padding: 5px 30px;
   border: 2px solid green;
   text-decoration: none;
@@ -231,7 +234,7 @@ nav .container {
 
 .arrivals .arrivals_box .arrivals_card {
   text-align: center;
-  padding: 5px;
+  padding: 20px;
   border: 1px solid #ddd; /* Softer border */
   background: white;
   transition: box-shadow 0.3s; /* Smooth transition */

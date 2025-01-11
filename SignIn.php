@@ -48,40 +48,10 @@ if (isset($_POST['submit'])) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/79d1bfb033.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
   <title>Sign in & Sign up Form</title>
-<<<<<<< HEAD
-  <!-- <style>
-    .alert {
-      padding: 1rem;
-      border-radius: 5px;
-      color: white;
-      margin: 1rem 0;
-      font-weight: 500;
-      width: 65%;
-    }
-
-    .alert-success {
-      background-color: #42ba96;
-    }
-
-    .alert-danger {
-      background-color: #fc5555;
-    }
-
-    .alert-info {
-      background-color: #2E9AFE;
-    }
-
-    .alert-warning {
-      background-color: #ff9966;
-    }
-   
-    }
-  </style> -->
-=======
   
->>>>>>> befec3c5462098de33788f0935eafe774b753108
 </head>
 
 <body>

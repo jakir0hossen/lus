@@ -19,24 +19,23 @@
 
             <div class="navbar">
                 <ul>
-                    <li><a href="./Home.php">Home</a></li>
-                    <li><a href="./about.php">About</a></li>
+                    <li><a href="../Home.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="#">LU</a>
                      <ul>
-                        <li><a href="./blogs.php">Blogs</a></li>
+                        <li><a href="./blog.php">Blogs</a></li>
                         <li><a href="./books.php">Book</a></li>
                         <li><a href="./event.php">Event</a></li>
-                        <li><a href="#">Lu Club</a>
+                        <li><a href="./#">Lu Club</a>
                             <ul>
                                 <li><a href="./lucc.php">LUCC</a></li>
-                                <li><a href="#">LUSSC</a></li>
-                                <li><a href="#">LUEC</a></li>
-                                <li><a href="#">LUCC</a></li>
-                                <li><a href="#">LUDC</a></li>
-                                <li><a href="#">LUMUNA</a></li>
-                                <li><a href="#">LU BNCC</a></li>
-                                <li><a href="#">LUPS</a></li>
-                                <li><a href="#">LUPS</a></li>
+                                <li><a href="./lussc.php">LUSSC</a></li>
+                                <li><a href="./luec.php">LUEC</a></li>
+                                <li><a href="./ieee.php">IEEE</a></li>
+                                <li><a href="./ludc.php">LUDC</a></li>
+                                <li><a href="./lumuna.php">LUMUNA</a></li>
+                                <li><a href="./bncc.php">LU BNCC</a></li>
+                                <li><a href="./lutc.php">LUTC</a></li>
                             </ul>
                         </li>
                      </ul>
@@ -46,11 +45,11 @@
                         
                         <ul>
                             <li><a href="./photo.php">Photo & Video</a></li>
-                          
+                            
                         </ul>
                     </li>
                     <li><a href="./contact.php">Contact</a></li>
-                    <li><a href="./logout.php"> <i class="fa-solid fa-right-to-bracket"></i>logout</a></li>
+                    <li><a href="./logout.php"><i class="fa-solid fa-right-to-bracket"></i>logout</a></li>
                 </ul>
                 
             </div>
@@ -79,7 +78,7 @@
                 <h4>PHP and MySQL WEB DEVELOPMENT (fifth edition)</h4>
                 <p class="writer">Robert Bros</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$18.50<sub><del>$22.60</del></sub></p>
+                
                 <a href="#" class="f_btn">Learn More</a>
             </div>                
 
@@ -93,10 +92,10 @@
                 </div>
 
                 <div class="featurde_book_tag">
-                    <h4>Data and Computer Communications</h4>
+                    <h4>Data and Computer  <br>
+                        Communications</h4>
                     <p class="writer">William Stallings</p>
                     <div class="categories">programming </div>
-                    <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
                     <a href="#" class="f_btn">Learn More</a>
                 </div>                  
 
@@ -113,7 +112,6 @@
                 <h4>Schaum’s Outline of Computer Graphics</h4>
                 <p class="writer">Zhigang Xiang</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
                 <a href="#" class="f_btn">Learn More</a>
             </div>               
 
@@ -130,7 +128,6 @@
                 <h4>Modern and Digital Analogue Communication System</h4>
                 <p class="writer">Jos Browney</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$22.50<sub><del>$28.60</del></sub></p>
                 <a href="#" class="f_btn">Learn More</a>
             </div>               
 
@@ -147,7 +144,7 @@
                 <h4>Introductory Methods of Numerical Analysis </h4>
                 <p class="writer">S.S. Sastry</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                <br>
                 <a href="#" class="f_btn">Learn More</a>
             </div>               
 
@@ -157,14 +154,14 @@
 
             <div class="featurde_book_img">
                 
-                <img src="../images/book/book_6.jpg">
+                <img src="../images/book/new17.jpg">
             </div>
 
             <div class="featurde_book_tag">
                 <h4>Head First Java: A Brain-Friendly Guide</h4>
                 <p class="writer">Kathy Sierra</p>
                 <div class="categories">programming </div>
-                <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                <br>
                 <a href="#" class="f_btn">Learn More</a>
             </div>               
 
@@ -174,14 +171,14 @@
 
             <div class="featurde_book_img">
                 
-                <img src="../images/book/book_8.jpg">
+                <img src="../images/book/new19.jpg">
             </div>
 
             <div class="featurde_book_tag">
-                <h4>Math Book (Bangla)</h4>
-                <p class="writer">Jahid Sir</p>
-                <div class="categories">Mathematics</div>
-                <p class="book_price">$30.50<sub><del>$40.60</del></sub></p>
+                <h4>Thinking Analytically: A Guide for Making Data-Driven Decisions
+                </h4>
+                <p class="writer">Nick Singh</p>
+                <div class="categories">programming</div>
                 <a href="#" class="f_btn">Learn More</a>
             </div>             
 
@@ -191,35 +188,21 @@
 
             <div class="featurde_book_img">
                 
-                <img src="../images/book/book_9.jpg">
+                <img src="../images/book/new20.jpg">
             </div>
 
             <div class="featurde_book_tag">
-                <h4>System Design Interview</h4>
-                <p class="writer">John Doe</p>
+                <h4>How to Think, Speak, and Understand Data Science
+                </h4>
+                <p class="writer"> Alex J. Gutman </p>
                 <div class="categories">programming </div>
-                <p class="book_price">$29.50<sub><del>$32.60</del></sub></p>
+                <br>
                 <a href="#" class="f_btn">Learn More</a>
             </div>             
 
             </div>
 
-            <div class="featured_book_card">
-
-            <div class="featurde_book_img">
-                
-                <img src="../images/book/book_10.jpg">
-            </div>
-
-            <div class="featurde_book_tag">
-                <h4>Machine Learning and System Design</h4>
-                <p class="writer">Roberto Carlos</p>
-                <div class="categories">programming </div>
-                <p class="book_price">$32.50<sub><del>$35.60</del></sub></p>
-                <a href="#" class="f_btn">Learn More</a>
-            </div>              
-
-            </div>
+          
 
 
             
@@ -237,7 +220,7 @@
 
             <div class="arrivals_card">
                 <div class="arrivals_image">
-                    <img src="../images/book/new1.jpg">
+                    <img src="../images/book/new9.jpg">
                 </div>
                 <div class="arrivals_tag">
                     <p>New Arrivals</p>
@@ -271,7 +254,7 @@
 
             <div class="arrivals_card">
                 <div class="arrivals_image">
-                    <img src="../images/book/new3.jpg">
+                    <img src="../images/book/new16.jpg">
                 </div>
                 <div class="arrivals_tag">
                     <p>New Arrivals</p>
@@ -371,41 +354,9 @@
                 </div>
             </div>
 
-            <div class="arrivals_card">
-                <div class="arrivals_image">
-                    <img src="../images/book/new9.jpg">
-                </div>
-                <div class="arrivals_tag">
-                    <p>New Arrivals</p>
-                    <div class="arrivals_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="arrivals_btn">Learn More</a>
-                </div>
-            </div>
+         
 
-            <!--<div class="arrivals_card">
-                <div class="arrivals_image">
-                    <img src="../images/book/new10.jpg">
-                </div>
-                <div class="arrivals_tag">
-                    <p>New Arrivals</p>
-                    <div class="arrivals_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="arrivals_btn">Learn More</a>
-                </div>
-            </div>-->
-
-        </div>
+      
 
     </div>
     <!--reviews-->
@@ -417,12 +368,11 @@
             <div class="review_card">
                 <i class="fa-solid fa-quote-right"></i>
                 <div class="card_top">
-                    <img src="../image/review_1.png">
+                    <img src="../images/book/3001766.png">
                 </div>
                 <div class="card">
-                    <h2>আনভীর সোহেল</h2>
-                    <p>I have both vol1 and vol2, also purchased some online tutorial, but
-                         this is still the best resource for SD interview. Must have!
+                    <h2>Jessica C.</h2>
+                    <p> Equally useful for data scientists and decision makers who want to be more data-driven
                     </p>
                     <div class="review_icon">
                         <i class="fa-solid fa-star"></i>
@@ -437,11 +387,12 @@
             <div class="review_card">
                 <i class="fa-solid fa-quote-right"></i>
                 <div class="card_top">
-                    <img src="../image/review_2.png">
+                    <img src="../images/book/3001764.png">
                 </div>
                 <div class="card">
-                    <h2>মারিয়া তাসলিমা</h2>
-                    <p>Like it . Very useful!
+                    <h2>George K. Rogers</h2>
+                    <p> The Music behind the Ears of Critical
+                        <br> Thinking
                     </p>
                     <div class="review_icon">
                         <i class="fa-solid fa-star"></i>
@@ -456,10 +407,10 @@
             <div class="review_card">
                 <i class="fa-solid fa-quote-right"></i>
                 <div class="card_top">
-                    <img src="../image/review_3.png">
+                    <img src="../images/book/3001765.png">
                 </div>
                 <div class="card">
-                    <h2>নূর নাজমুল</h2>
+                    <h2>Blonde Dragon</h2>
                     <p>It cover some system design and useful algorithm! Recommend if you havn’t heard of these concept.
                     Check the table of content before buying it!
                     </p>
@@ -476,11 +427,11 @@
             <div class="review_card">
                 <i class="fa-solid fa-quote-right"></i>
                 <div class="card_top">
-                    <img src="../image/review_4.png">
+                    <img src="../images/book/3001766.png">
                 </div>
                 <div class="card">
-                    <h2>মোশাররফ মোস্তাফিজুর</h2>
-                    <p>Excellent for juniors and seniors, juniors had an overview about arch and seniors had a refresh about new technology.
+                    <h2>Olivia</h2>
+                    <p>Excellent for juniors and seniors, juniors had an overview about arch and seniors had a refresh about <br> new technology.
                     </p>
                     <div class="review_icon">
                         <i class="fa-solid fa-star"></i>

@@ -94,29 +94,28 @@ if(isset($_POST['submit'])){
 
             <div class="navbar">
                 <ul>
-                    <li><a href="./Home.php">Home</a></li>
-                    <li><a href="./about.php">About</a></li>
+                    <li><a href="../Home.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="#">LU</a>
                      <ul>
                         <li><a href="./blog.php">Blogs</a></li>
                         <li><a href="./books.php">Book</a></li>
                         <li><a href="./event.php">Event</a></li>
-                        <li><a href="#">Lu Club</a>
+                        <li><a href="./#">Lu Club</a>
                             <ul>
-                                <li><a href="#">LUCC</a></li>
-                                <li><a href="#">LUSSC</a></li>
-                                <li><a href="#">LUEC</a></li>
-                                <li><a href="#">LUCC</a></li>
-                                <li><a href="#">LUDC</a></li>
-                                <li><a href="#">LUMUNA</a></li>
-                                <li><a href="#">LU BNCC</a></li>
-                                <li><a href="#">LUPS</a></li>
-                                <li><a href="#">LUPS</a></li>
+                                <li><a href="./lucc.php">LUCC</a></li>
+                                <li><a href="./lussc.php">LUSSC</a></li>
+                                <li><a href="./luec">LUEC</a></li>
+                                <li><a href="./ieee.php">IEEE</a></li>
+                                <li><a href="./ludc.php">LUDC</a></li>
+                                <li><a href="./lumuna.php">LUMUNA</a></li>
+                                <li><a href="./bncc.php">LU BNCC</a></li>
+                                <li><a href="./lutc.php">LUTC</a></li>
                             </ul>
                         </li>
                      </ul>
                     </li>
-                    <li><a href="news.php">News</a></li>
+                    <li><a href="./news.php">News</a></li>
                     <li><a href="#">Gallery</a>
                         
                         <ul>
@@ -125,7 +124,7 @@ if(isset($_POST['submit'])){
                         </ul>
                     </li>
                     <li><a href="./contact.php">Contact</a></li>
-                    <li><a href="./login.php"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+                    <li><a href="./logout.php"><i class="fa-solid fa-right-to-bracket"></i>logout</a></li>
                 </ul>
                 
             </div>

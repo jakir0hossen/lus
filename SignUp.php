@@ -54,13 +54,10 @@ if (isset($_POST['submit'])) {
                             $mail->setFrom('jhbjakir@gmail.com', $name);
                             $mail->addAddress($email, $name);
                             $mail->isHTML(true);
-<<<<<<< HEAD
                             $mail->Subject = 'Wellcome To My Website';
                             $mail->Body    = '<p> This is the Verifecation Link<b><a href="http://localhost:3000/?Verification='.$Code.'">"http://localhost:3000/?Verification='.$Code.'"</a></b></p>';
-=======
                             $mail->Subject = 'Welcome to My Website';
                             $mail->Body = '<p>This is the Verification Link: <b><a href="http://localhost:3000/SignIn.php?Verification='.$Code.'">http://localhost:3000/SignIn.php?Verification='.$Code.'</a></b></p>';
->>>>>>> befec3c5462098de33788f0935eafe774b753108
                             $mail->send();
                         } catch (Exception $e) {
                             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
@@ -89,6 +86,7 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/79d1bfb033.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Sign up</title>
    
