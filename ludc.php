@@ -69,7 +69,7 @@
            <div class="card">
              <div class="content">
                <div class="img">
-                 <img src="./ludc/ludc-2.webp" alt="">
+                 <img src="./ludc/jahid-1-scaled-1.jpg" alt="">
                </div>
                <div class="details">
                  <div class="name">Kazi Md. Jahid Hasan
@@ -83,10 +83,10 @@
                  Leading University Debating Club</div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
@@ -96,7 +96,7 @@
            <div class="card">
              <div class="content">
                <div class="img">
-                 <img src="./ludc/ludc-1.webp" alt="">
+                 <img src="./ludc/jaman1-scaled-2.jpg" alt="">
                </div>
                <div class="details">
                  <div class="name">Md. Jamaner Rahaman
@@ -108,10 +108,10 @@
                  Leading University Debating Club</div>
                </div>
                <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                </div>
              </div>
            </div>
